@@ -31,13 +31,18 @@ Welcome to your new web application project! This project is built with [Vite](h
 
 ```
 myfirst/
-├── public/        # Static assets
-├── src/           # Source code
+├── public/         # Static assets
+├── src/            # Source code
+│   ├── assets/     # Images and static assets
 │   ├── components/ # React components
-│   ├── App.jsx     # Main app component
-│   └── main.jsx    # Entry point
-├── package.json   # Project metadata & scripts
-└── vite.config.js # Vite configuration
+│   ├── App.tsx     # Main app component
+│   ├── main.tsx    # Entry point
+│   ├── App.css     # App styles
+│   └── index.css   # Global styles
+├── package.json    # Project metadata & scripts
+├── vite.config.ts  # Vite configuration
+├── tsconfig.json   # TypeScript config
+└── ...             # Other config files
 ```
 
 ## 📝 Scripts
